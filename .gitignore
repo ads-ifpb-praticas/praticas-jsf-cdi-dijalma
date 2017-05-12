@@ -3,6 +3,11 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Directories #
+/out
+/target
+.idea/
+
 # Package Files #
 *.jar
 *.war

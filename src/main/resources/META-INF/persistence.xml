@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="jsfcdi">
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:~/praticasjsfcdi"/>
+            <property name="javax.persistence.jdbc.user" value="dijalma"/>
+            <property name="javax.persistence.jdbc.password" value="123456"/>
+            <property name="javax.persistence.jdbc.Driver " value="org.h2.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
